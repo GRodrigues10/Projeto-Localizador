@@ -11,6 +11,9 @@ body {
     background-image: url(../imagens/imagembraba.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 95vh;
 }
 
 .container {
