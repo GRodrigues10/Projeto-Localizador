@@ -1,3 +1,8 @@
-@media screen (width: ){
-    
+@media screen and (orientation: landscape) {
+    .container {
+        /* Estilos específicos para quando o dispositivo está deitado */
+        /* Por exemplo, você pode ajustar a largura do contêiner ou mudar o layout */
+        width: 80%; /* Porcentagem da largura da tela */
+        margin-top: 5%; /* Margem superior para centralizar */
+    }
 }
