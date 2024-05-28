@@ -38,6 +38,8 @@
 }
 */
 /*Tablet*/
+
+/* Telas Maiores (Tablets e Desktops) */
 @media screen and (min-width: 768px) {
     .container {
         width: 50%;
@@ -49,7 +51,7 @@
     h1 {
         font-size: 2rem; /* Ajustando o tamanho do título */
         margin-top: 20px; /* Aumentando o espaçamento superior */
-        margin-bottom: 0px;
+        margin-bottom: 0px; /* Removendo a margem inferior */
     }
 
     #input {
@@ -61,11 +63,19 @@
     button {
         font-size: 16px; /* Ajustando o tamanho do botão */
         padding: 12px; /* Ajustando o preenchimento */
-         /* Aumentando o espaçamento superior */
+        margin-top: 20px; /* Aumentando o espaçamento superior */
     }
 
     p {
         font-size: 1.2rem; /* Ajustando o tamanho do texto de parágrafo */
         margin-top: 50px; /* Aumentando o espaçamento superior */
+    }
+}
+
+/* Telas Maiores em Orientação Paisagem */
+@media screen and (min-width: 768px) and (orientation: landscape) {
+    .container {
+        width: 80%; /* Reduzindo a largura para ajustar a orientação paisagem */
+        height: 300px; /* Definindo uma altura fixa */
     }
 }
