@@ -1,9 +1,9 @@
 @media (max-width: 480px) {
-    .container {
+    /*.container {
         width: 90%;
-        max-width: 300px; /* Ajuste para dispositivos com telas pequenas */
-        height: 500px; /* Definindo a altura como 80% da altura da tela */
-        max-height: 600px; /* Limitando a altura máxima para 600px */
+        max-width: 300px; 
+        height: 500px; 
+        max-height: 600px; 
         padding: 15px;
         display: flex;
         align-items: center;
@@ -11,13 +11,13 @@
     }
 
     h1 {
-        font-size: 1.6rem; /* Reduz o tamanho do título */
+        font-size: 1.6rem; 
         position: relative;
         bottom: 50px;
     }
 
     #input {
-        font-size: 14px; /* Reduz o tamanho do texto de entrada */
+        font-size: 14px; 
         padding: 10px;
         position: relative;
         bottom: 50px;
@@ -25,47 +25,47 @@
     }
 
     button {
-        font-size: 14px; /* Reduz o tamanho do botão */
+        font-size: 14px; 
         padding: 10px;
         position: relative;
         bottom: 50px;
     }
 
     p {
-        font-size: 1rem; /* Reduz o tamanho do texto de parágrafo */
-        margin-top: 30px; /* Ajusta a margem superior */
+        font-size: 1rem; 
+        margin-top: 30px; 
     }
 }
+*/
 /*Tablet*/
-@media screen and (min-width:768px) and (max-width:992px) {
-    /* Media Queries para responsividade */
-
+@media screen and (min-width: 768px) {
     .container {
-        height: 500px;
-        padding: 15px;
-        width: 80vw;
-        display: flex;
-        align-items: center;
-
+        width: 50%;
+        max-width: 600px; /* Limitando a largura máxima */
+        height: 500px; /* Definindo uma altura fixa */
+        padding: 30px; /* Aumentando o espaçamento interno */
     }
 
     h1 {
-        font-size: 2rem;
-        margin-top: 20px;
+        font-size: 2rem; /* Ajustando o tamanho do título */
+        margin-top: 20px; /* Aumentando o espaçamento superior */
+        margin-bottom: 0px;
     }
 
     #input {
-        font-size: 14px;
-        padding: 10px;
+        font-size: 16px; /* Ajustando o tamanho do texto de entrada */
+        padding: 12px; /* Ajustando o preenchimento */
+        margin-top: 20px; /* Aumentando o espaçamento superior */
     }
 
     button {
-        font-size: 14px;
-        padding: 10px;
+        font-size: 16px; /* Ajustando o tamanho do botão */
+        padding: 12px; /* Ajustando o preenchimento */
+         /* Aumentando o espaçamento superior */
     }
 
     p {
-        font-size: 1.2rem;
-        margin-top: 50px;
+        font-size: 1.2rem; /* Ajustando o tamanho do texto de parágrafo */
+        margin-top: 50px; /* Aumentando o espaçamento superior */
     }
 }

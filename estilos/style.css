@@ -21,11 +21,11 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 300px;
      /* Para manter um formato de celular */
     background-color: rgba(8, 8, 8, 0.62);
-    height: 90%; /* Mantém a altura proporcional */
-    max-height: 600px;
+     /* Mantém a altura proporcional */
+    height: 600px;
     margin: auto;
     text-align: center;
     border-radius: 20px;
