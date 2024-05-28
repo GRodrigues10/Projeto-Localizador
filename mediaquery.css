@@ -1,15 +1,14 @@
-/* Telas Pequenas */
 @media (max-width: 480px) {
     .container {
         width: 90%;
         max-width: 300px; /* Ajuste para dispositivos com telas pequenas */
-        height: auto;
-        max-height: none; /* Remover a altura máxima para permitir ajuste automático */
+        height: 500px; /* Definindo a altura como 80% da altura da tela */
+        max-height: 600px; /* Limitando a altura máxima para 600px */
         padding: 15px;
     }
 
     h1 {
-        font-size: 2rem; /* Reduz o tamanho do título */
+        font-size: 1.6rem; /* Reduz o tamanho do título */
     }
 
     #input {
@@ -27,7 +26,6 @@
         margin-top: 30px; /* Ajusta a margem superior */
     }
 }
-
 /*Tablet*/
 @media screen and (min-width:768px) and (max-width:992px) {
     /* Media Queries para responsividade */
