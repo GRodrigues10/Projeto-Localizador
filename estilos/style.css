@@ -26,7 +26,7 @@ body {
     max-width: 400px;
     background-color: #0808089d; /* Cinza Médio */
     height: 600px; /* Altura ajustada */
-    margin: 20px auto; /* Centraliza horizontalmente com margem superior */
+    margin: auto; /* Centraliza horizontalmente com margem superior */
     text-align: center;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
