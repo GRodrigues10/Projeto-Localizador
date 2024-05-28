@@ -1,0 +1,33 @@
+/*Tablet*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    /* Media Queries para responsividade */
+
+    .container {
+        height: 500px;
+        padding: 15px;
+        width: 80vw;
+        display: flex;
+        align-items: center;
+
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+
+    #input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin-top: 50px;
+    }
+}

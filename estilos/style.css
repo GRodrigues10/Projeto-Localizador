@@ -6,15 +6,14 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
     font-family: 'Roboto', sans-serif;
     background-image: url(../imagens/imagembraba.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh; /* Alterado para ocupar toda a altura da tela */
-    padding: 20px; /* Adicionado um padding ao redor do corpo */
+    height: 100vh;
 }
 
 .container {
@@ -22,55 +21,54 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-    max-width: 400px;
-    background-color: #0808089d; /* Cinza Médio */
-    height: 600px; /* Altura ajustada */
-    margin: auto; /* Centraliza horizontalmente com margem superior */
+    width: 300px;
+    max-width: 90%; /* Para telas menores */
+    background-color: rgba(8, 8, 8, 0.62); /* Use rgba para cores transparentes */
+    height: 500px;
+    margin: auto;
     text-align: center;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Distribui o espaço entre os elementos */
-    border: 1px solid;
+    justify-content: space-between;
+    border: 1px solid; /* Considere adicionar uma cor específica para o border */
 }
 
 h1 {
-    font-size: 2rem;
-    color: #FFFFFF; /* Branco */
+    font-size: 1.5rem;
+    color: #FFFFFF;
     text-shadow: 1px 1px 2px black;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin: 50px 0 20px; /* Combine margin-top e margin-bottom */
 }
 
 #input {
     margin-top: 30%;
     padding: 12px;
-    border-radius: 5px 5px 0 0; /* Bordas arredondadas no topo */
+    border-radius: 5px 5px 0 0;
     border: 1px solid black;
     font-size: 16px;
-    width: calc(100% - 22px); /* Ajusta largura para compensar padding e bordas */
-    margin-bottom: -1px; /* Remove o espaçamento entre input e botão */
+    width: calc(100% - 24px); /* Ajuste o cálculo para compensar padding e bordas */
+    margin-bottom: -1px;
     text-align: center;
     outline: none;
 }
 
 button {
     padding: 12px;
-    width: calc(100% - 22px); /* Ajusta largura para compensar padding e bordas */
-    background-color: rgba(0, 0, 0, 0.473);
+    width: calc(100% - 24px); /* Ajuste o cálculo para compensar padding e bordas */
+    background-color: rgba(0, 0, 0, 0.47);
     color: white;
     border: 1px solid black;
-    border-radius: 0 0 5px 5px; /* Bordas arredondadas na base */
+    border-radius: 0 0 5px 5px;
     cursor: pointer;
     font-size: 16px;
-    transition-duration: 0.5s;
+    transition: background-color 0.5s;
 }
 
 button:hover {
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 button:active {
@@ -78,10 +76,9 @@ button:active {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px 5px black;
     margin-top: 100px;
-    
 }
