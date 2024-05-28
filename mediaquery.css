@@ -10,18 +10,20 @@
     h1 {
         font-size: 2rem; /* Ajustando o tamanho do título */
         margin-top: 20px; /* Aumentando o espaçamento superior */
+        position: relative;
+        bottom: 70px;
     }
 
     #input {
         font-size: 16px; /* Ajustando o tamanho do texto de entrada */
         padding: 12px; /* Ajustando o preenchimento */
-        margin-top: 20px; /* Aumentando o espaçamento superior */
+        margin-top: 50px; /* Aumentando o espaçamento superior */
     }
 
     button {
         font-size: 16px; /* Ajustando o tamanho do botão */
         padding: 12px; /* Ajustando o preenchimento */
-        margin-top: 20px; /* Aumentando o espaçamento superior */
+         /* Aumentando o espaçamento superior */
     }
 
     p {
