@@ -21,20 +21,22 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
-    max-width: 90%; /* Para telas menores */
-    background-color: rgba(8, 8, 8, 0.62); /* Use rgba para cores transparentes */
-    height: 500px;
+    width: 90%;
+     /* Para manter um formato de celular */
+    background-color: rgba(8, 8, 8, 0.62);
+    height: 90%; /* Mantém a altura proporcional */
+    max-height: 600px;
     margin: auto;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid; /* Considere adicionar uma cor específica para o border */
+    justify-content: center;
+    border: 1px solid;
 }
+
 
 h1 {
     font-size: 1.5rem;
