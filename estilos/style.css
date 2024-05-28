@@ -43,6 +43,8 @@ h1 {
     color: #FFFFFF;
     text-shadow: 1px 1px 2px black;
     margin: 50px 0 20px; /* Combine margin-top e margin-bottom */
+    position: relative;
+    bottom: 50px;
 }
 
 #input {
@@ -55,6 +57,8 @@ h1 {
     margin-bottom: -1px;
     text-align: center;
     outline: none;
+    position: relative;
+    bottom: 50px;
 }
 
 button {
@@ -67,6 +71,8 @@ button {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.5s;
+    position: relative;
+    bottom: 50px;
 }
 
 button:hover {
