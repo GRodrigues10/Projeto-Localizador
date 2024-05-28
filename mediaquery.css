@@ -1,3 +1,33 @@
+/* Telas Pequenas */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        max-width: 300px; /* Ajuste para dispositivos com telas pequenas */
+        height: auto;
+        max-height: none; /* Remover a altura máxima para permitir ajuste automático */
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.3rem; /* Reduz o tamanho do título */
+    }
+
+    #input {
+        font-size: 14px; /* Reduz o tamanho do texto de entrada */
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px; /* Reduz o tamanho do botão */
+        padding: 10px;
+    }
+
+    p {
+        font-size: 1rem; /* Reduz o tamanho do texto de parágrafo */
+        margin-top: 30px; /* Ajusta a margem superior */
+    }
+}
+
 /*Tablet*/
 @media screen and (min-width:768px) and (max-width:992px) {
     /* Media Queries para responsividade */
