@@ -5,20 +5,30 @@
         height: 500px; /* Definindo a altura como 80% da altura da tela */
         max-height: 600px; /* Limitando a altura máxima para 600px */
         padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     h1 {
         font-size: 1.6rem; /* Reduz o tamanho do título */
+        position: relative;
+        bottom: 50px;
     }
 
     #input {
         font-size: 14px; /* Reduz o tamanho do texto de entrada */
         padding: 10px;
+        position: relative;
+        bottom: 50px;
+       
     }
 
     button {
         font-size: 14px; /* Reduz o tamanho do botão */
         padding: 10px;
+        position: relative;
+        bottom: 50px;
     }
 
     p {
