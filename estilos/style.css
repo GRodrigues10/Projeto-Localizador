@@ -24,8 +24,8 @@ body, html {
     width: 300px;
      /* Para manter um formato de celular */
     background-color: rgba(8, 8, 8, 0.62);
-     /* Mantém a altura proporcional */
-    height: 600px;
+    height: 500px; /* Mantém a altura proporcional */
+    
     margin: auto;
     text-align: center;
     border-radius: 20px;
