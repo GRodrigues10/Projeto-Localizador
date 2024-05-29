@@ -12,6 +12,7 @@
         margin-top: 20px; /* Aumentando o espaçamento superior */
         position: relative;
         bottom: 70px;
+
     }
 
     #input {
@@ -24,10 +25,11 @@
         font-size: 16px; /* Ajustando o tamanho do botão */
         padding: 12px; /* Ajustando o preenchimento */
          /* Aumentando o espaçamento superior */
+         font-weight: bold;
     }
 
     p {
         font-size: 1.2rem; /* Ajustando o tamanho do texto de parágrafo */
-        margin-top: 50px; /* Aumentando o espaçamento superior */
+        margin-top: 30px; /* Aumentando o espaçamento superior */
     }
 }

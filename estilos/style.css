@@ -73,6 +73,7 @@ button {
     transition: background-color 0.5s;
     position: relative;
     bottom: 50px;
+    font-weight: bold;
 }
 
 button:hover {
