@@ -18,7 +18,10 @@
     #input {
         font-size: 16px; /* Ajustando o tamanho do texto de entrada */
         padding: 12px; /* Ajustando o preenchimento */
-        margin-top: 50px; /* Aumentando o espaçamento superior */
+        margin-top: 30px; /* Aumentando o espaçament
+        o superior */
+        position: relative;
+         bottom: 10px;
     }
 
     button {
@@ -26,10 +29,24 @@
         padding: 12px; /* Ajustando o preenchimento */
          /* Aumentando o espaçamento superior */
          font-weight: bold;
+         position: relative;
+         bottom: 10px;
     }
 
-    p {
-        font-size: 1.2rem; /* Ajustando o tamanho do texto de parágrafo */
-        margin-top: 30px; /* Aumentando o espaçamento superior */
+    #area {
+        width: 100%; /* Garantir que o parágrafo ocupe toda a largura disponível */
+        height: 100px; /* Define uma altura fixa */
+        padding: 10px;
+        margin: 20px auto 0 auto; /* Centralizar horizontalmente e adicionar margem superior */
+        color: white;
+        font-weight: bold;
+        font-size: 1.3rem;
+        position: relative;
+        top: 30px;
+
+       
+    
+        
+         /* Centralizar texto */
     }
 }

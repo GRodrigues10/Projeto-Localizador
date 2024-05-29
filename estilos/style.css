@@ -84,10 +84,15 @@ button:active {
     background-color: rgb(61, 56, 56);
 }
 
-p {
-    font-size: 1.2rem;
+#area {
+    width: 100%; /* Garantir que o parágrafo ocupe toda a largura disponível */
+    height: 100px; /* Define uma altura fixa */
+    padding: 10px;
+    margin: 20px auto 0 auto; /* Centralizar horizontalmente e adicionar margem superior */
     color: white;
     font-weight: bold;
-    text-shadow: 1px 1px 5px black;
-    margin-top: 50px;
+    font-size: 1rem;
+   
+    
+     /* Centralizar texto */
 }
