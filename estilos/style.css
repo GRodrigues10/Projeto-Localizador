@@ -1,5 +1,5 @@
+/* Estilos padrão */
 @charset "UTF-8";
-
 
 * {
     margin: 0;
@@ -23,10 +23,8 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
-     /* Para manter um formato de celular */
     background-color: rgba(8, 8, 8, 0.62);
-    height: 500px; /* Mantém a altura proporcional */
-    
+    height: 500px;
     margin: auto;
     text-align: center;
     border-radius: 20px;
@@ -36,14 +34,15 @@ body, html {
     flex-direction: column;
     justify-content: center;
     border: 1px solid;
+    transition: width 0.3s, height 0.3s; /* Adicionando a transição de largura e altura */
+    transition-timing-function: ease;
 }
-
 
 h1 {
     font-size: 1.5rem;
     color: #FFFFFF;
     text-shadow: 1px 1px 2px black;
-    margin: 50px 0 20px; /* Combine margin-top e margin-bottom */
+    margin: 50px 0 20px;
     position: relative;
     bottom: 50px;
 }
@@ -54,7 +53,7 @@ h1 {
     border-radius: 5px 5px 0 0;
     border: 1px solid black;
     font-size: 16px;
-    width: calc(100% - 24px); /* Ajuste o cálculo para compensar padding e bordas */
+    width: calc(100% - 24px);
     margin-bottom: -1px;
     text-align: center;
     outline: none;
@@ -64,7 +63,7 @@ h1 {
 
 button {
     padding: 12px;
-    width: calc(100% - 24px); /* Ajuste o cálculo para compensar padding e bordas */
+    width: calc(100% - 24px);
     background-color: rgba(0, 0, 0, 0.47);
     color: white;
     border: 1px solid black;
@@ -86,23 +85,98 @@ button:active {
 }
 
 #area {
-    width: 100%; /* Garantir que o parágrafo ocupe toda a largura disponível */
-    height: 100px; /* Define uma altura fixa */
+    width: 100%;
+    height: 100px;
     padding: 10px;
-    margin: 20px auto 0 auto; /* Centralizar horizontalmente e adicionar margem superior */
+    margin: 20px auto 0 auto;
     color: white;
     font-weight: bold;
     font-size: 1rem;
-   
-    
-     /* Centralizar texto */
 }
 
+/* Media query para dispositivos com largura de viewport menor que 768px */
 @media screen and (max-width: 767px) {
     .container {
-        width: 90vw; /* Defina a largura como 90% da largura da viewport */
-        max-width: 600px; /* Defina um máximo para evitar que a div fique muito grande */
-        margin: auto; /* Para centralizar a div horizontalmente */
+        width: 90vw;
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
+/* Media query para dispositivos com largura de viewport maior ou igual a 768px */
+@media screen and (min-width: 768px) {
+    .container {
+        width: 50%;
+        max-width: 600px;
+        height: 500px;
+        padding: 30px;
     }
 
+    h1 {
+        font-size: 2rem;
+        margin-top: 20px;
+        position: relative;
+        bottom: 70px;
+    }
+
+    #input {
+        font-size: 16px;
+        padding: 12px;
+        margin-top: 30px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 12px;
+        font-weight: bold;
+        position: relative;
+        bottom: 10px;
+    }
+
+    #area {
+        font-size: 1.3rem;
+        top: 30px;
+    }
+}
+
+/* Media query para dispositivos com largura de viewport maior ou igual a 1200px */
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 50%;
+        max-width: 800px;
+        height: 500px;
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+        margin-top: 20px;
+        position: relative;
+        bottom: 70px;
+    }
+
+    #input {
+        font-size: 20px;
+        padding: 12px;
+        margin-top: 30px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 12px;
+        font-weight: bold;
+        position: relative;
+        bottom: 10px;
+    }
+
+    #area {
+        font-size: 1.3rem;
+        top: 30px;
+    }
+
+  
 }

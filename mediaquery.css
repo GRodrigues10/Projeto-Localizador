@@ -1,112 +1,89 @@
-/* Telas Maiores (Tablets e Desktops) */
+/* Media query para dispositivos com largura de viewport menor que 768px */
+@media screen and (max-width: 767px) {
+    .container {
+        width: 90vw;
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
+/* Media query para dispositivos com largura de viewport maior ou igual a 768px */
 @media screen and (min-width: 768px) {
     .container {
         width: 50%;
-        max-width: 600px; /* Limitando a largura máxima */
-        height: 500px; /* Definindo uma altura fixa */
-        padding: 30px; /* Aumentando o espaçamento interno */
+        max-width: 600px;
+        height: 500px;
+        padding: 30px;
     }
 
     h1 {
-        font-size: 2rem; /* Ajustando o tamanho do título */
-        margin-top: 20px; /* Aumentando o espaçamento superior */
+        font-size: 2rem;
+        margin-top: 20px;
         position: relative;
         bottom: 70px;
-
     }
 
     #input {
-        font-size: 16px; /* Ajustando o tamanho do texto de entrada */
-        padding: 12px; /* Ajustando o preenchimento */
-        margin-top: 30px; /* Aumentando o espaçament
-        o superior */
+        font-size: 16px;
+        padding: 12px;
+        margin-top: 30px;
         position: relative;
-         bottom: 10px;
+        bottom: 10px;
     }
 
     button {
-        font-size: 16px; /* Ajustando o tamanho do botão */
-        padding: 12px; /* Ajustando o preenchimento */
-         /* Aumentando o espaçamento superior */
-         font-weight: bold;
-         position: relative;
-         bottom: 10px;
+        font-size: 16px;
+        padding: 12px;
+        font-weight: bold;
+        position: relative;
+        bottom: 10px;
     }
 
     #area {
-        width: 100%; /* Garantir que o parágrafo ocupe toda a largura disponível */
-        height: 100px; /* Define uma altura fixa */
-        padding: 10px;
-        margin: 20px auto 0 auto; /* Centralizar horizontalmente e adicionar margem superior */
-        color: white;
-        font-weight: bold;
         font-size: 1.3rem;
-        position: relative;
         top: 30px;
-
-       
-    
-        
-         /* Centralizar texto */
-    }
-
-    @media screen and (min-width:1200px) {
-        .container {
-        width: 50%;
-        max-width: 800px; /* Limitando a largura máxima */
-        height: 500px; /* Definindo uma altura fixa */
-        padding: 30px; /* Aumentando o espaçamento interno */
-    }
-
-    h1 {
-        font-size: 2.3rem; /* Ajustando o tamanho do título */
-        margin-top: 20px; /* Aumentando o espaçamento superior */
-        position: relative;
-        bottom: 70px;
-
-    }
-
-    #input {
-        font-size: 20px; /* Ajustando o tamanho do texto de entrada */
-        padding: 12px; /* Ajustando o preenchimento */
-        margin-top: 30px; /* Aumentando o espaçament
-        o superior */
-        position: relative;
-         bottom: 10px;
-    }
-
-    button {
-        font-size: 20px; /* Ajustando o tamanho do botão */
-        padding: 12px; /* Ajustando o preenchimento */
-         /* Aumentando o espaçamento superior */
-         font-weight: bold;
-         position: relative;
-         bottom: 10px;
-    }
-
-    #area {
-        width: 100%; /* Garantir que o parágrafo ocupe toda a largura disponível */
-        height: 100px; /* Define uma altura fixa */
-        padding: 10px;
-        margin: 20px auto 0 auto; /* Centralizar horizontalmente e adicionar margem superior */
-        color: white;
-        font-weight: bold;
-        font-size: 1.3rem;
-        position: relative;
-        top: 30px;
-
-       
-    
-        
-         /* Centralizar texto */
-    }
-    }
-
-    @media screen and (max-width: 767px) {
-        .container {
-            width: 90vw; /* Defina a largura como 90% da largura da viewport */
-            max-width: 600px; /* Defina um máximo para evitar que a div fique muito grande */
-            margin: auto; /* Para centralizar a div horizontalmente */
-        }
     }
 }
+
+/* Media query para dispositivos com largura de viewport maior ou igual a 1200px */
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 50%;
+        max-width: 800px;
+        height: 500px;
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+        margin-top: 20px;
+        position: relative;
+        bottom: 70px;
+    }
+
+    #input {
+        font-size: 20px;
+        padding: 12px;
+        margin-top: 30px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 12px;
+        font-weight: bold;
+        position: relative;
+        bottom: 10px;
+    }
+
+    #area {
+        font-size: 1.3rem;
+        top: 30px;
+    }
+}
+
+
+
+
+
