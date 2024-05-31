@@ -49,4 +49,56 @@
         
          /* Centralizar texto */
     }
+
+    @media screen and (min-width:1200px) {
+        .container {
+        width: 50%;
+        max-width: 800px; /* Limitando a largura máxima */
+        height: 500px; /* Definindo uma altura fixa */
+        padding: 30px; /* Aumentando o espaçamento interno */
+    }
+
+    h1 {
+        font-size: 2.3rem; /* Ajustando o tamanho do título */
+        margin-top: 20px; /* Aumentando o espaçamento superior */
+        position: relative;
+        bottom: 70px;
+
+    }
+
+    #input {
+        font-size: 20px; /* Ajustando o tamanho do texto de entrada */
+        padding: 12px; /* Ajustando o preenchimento */
+        margin-top: 30px; /* Aumentando o espaçament
+        o superior */
+        position: relative;
+         bottom: 10px;
+    }
+
+    button {
+        font-size: 20px; /* Ajustando o tamanho do botão */
+        padding: 12px; /* Ajustando o preenchimento */
+         /* Aumentando o espaçamento superior */
+         font-weight: bold;
+         position: relative;
+         bottom: 10px;
+    }
+
+    #area {
+        width: 100%; /* Garantir que o parágrafo ocupe toda a largura disponível */
+        height: 100px; /* Define uma altura fixa */
+        padding: 10px;
+        margin: 20px auto 0 auto; /* Centralizar horizontalmente e adicionar margem superior */
+        color: white;
+        font-weight: bold;
+        font-size: 1.3rem;
+        position: relative;
+        top: 30px;
+
+       
+    
+        
+         /* Centralizar texto */
+    }
+    }
 }
