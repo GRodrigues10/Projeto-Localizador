@@ -104,8 +104,9 @@
 
     @media screen and (orientation: landscape) {
         .container {
-            width: 80%; /* Ajuste a largura conforme necessário */
-            max-width: 600px; /* Adicione um limite de largura se desejar */
+            width: 90%; /* Ou outra porcentagem adequada */
+            max-width: 600px; /* Defina um máximo para evitar que a div fique muito grande */
+            margin: auto; /* Para centralizar a div horizontalmente */
         }
     }
 }
