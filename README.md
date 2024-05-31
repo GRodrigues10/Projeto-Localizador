@@ -7,8 +7,11 @@ HTML5<br>
 CSS3<br>
 JavaScript<br>
 <h2>API</h2>
-ViaCEP<br>
+<p>ViaCEP</p>
 
 
 
-![Uploading api.png…]()
+
+
+
+![imagem](https://github.com/GRodrigues10/Projeto-Localizador/assets/167185964/abb5faa0-7af9-4c03-99be-312c07d8720d)
