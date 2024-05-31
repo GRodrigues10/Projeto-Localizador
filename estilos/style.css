@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 
 * {
     margin: 0;
@@ -95,8 +97,3 @@ button:active {
     
      /* Centralizar texto */
 }
-
-.container {
-    width: 90%; /* Ou outra porcentagem adequada */
-    max-width: 600px; /* Defina um máximo para evitar que a div fique muito grande */
-    margin: auto; /* Para centralizar a div horizontalmente */
