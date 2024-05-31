@@ -98,10 +98,11 @@ button:active {
      /* Centralizar texto */
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (max-width: 767px) {
     .container {
-        width: 90%; /* Ou outra porcentagem adequada */
+        width: 90vw; /* Defina a largura como 90% da largura da viewport */
         max-width: 600px; /* Defina um máximo para evitar que a div fique muito grande */
         margin: auto; /* Para centralizar a div horizontalmente */
     }
+
 }
