@@ -9,3 +9,4 @@ JavaScript<br>
 <h2>API</h2>
 ViaCEP
 
+![Captura de Tela (297)](https://github.com/GRodrigues10/Projeto-Localizador/assets/167185964/ee7c61b1-46b1-4b44-9034-0804e7f6353a)
