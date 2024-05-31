@@ -101,4 +101,11 @@
          /* Centralizar texto */
     }
     }
+
+    @media screen and (orientation: landscape) {
+        .container {
+            width: 80%; /* Ajuste a largura conforme necessário */
+            max-width: 600px; /* Adicione um limite de largura se desejar */
+        }
+    }
 }
