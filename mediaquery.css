@@ -1,39 +1,39 @@
 @media screen and (min-width: 768px) {
     .container {
         width: 50%;
-        max-width: 600px; /* Limitando a largura máxima */
-        height: 500px; /* Definindo uma altura fixa */
-        padding: 30px; /* Aumentando o espaçamento interno */
+        max-width: 600px;
+        height: 500px;
+        padding: 30px;
     }
 
     h1 {
-        font-size: 2rem; /* Ajustando o tamanho do título */
-        margin-top: 20px; /* Aumentando o espaçamento superior */
+        font-size: 2rem;
+        margin-top: 20px;
         position: relative;
         bottom: 70px;
     }
 
     #input {
-        font-size: 16px; /* Ajustando o tamanho do texto de entrada */
-        padding: 12px; /* Ajustando o preenchimento */
-        margin-top: 30px; /* Aumentando o espaçamento superior */
+        font-size: 16px;
+        padding: 12px;
+        margin-top: 30px;
         position: relative;
         bottom: 10px;
     }
 
     button {
-        font-size: 16px; /* Ajustando o tamanho do botão */
-        padding: 12px; /* Ajustando o preenchimento */
+        font-size: 16px;
+        padding: 12px;
         font-weight: bold;
         position: relative;
         bottom: 10px;
     }
 
     #area {
-        width: 100%; /* Garantir que o parágrafo ocupe toda a largura disponível */
-        height: 100px; /* Define uma altura fixa */
+        width: 100%;
+        height: 100px;
         padding: 10px;
-        margin: 20px auto 0 auto; /* Centralizar horizontalmente e adicionar margem superior */
+        margin: 20px auto 0 auto;
         color: white;
         font-weight: bold;
         font-size: 1.3rem;
@@ -42,43 +42,42 @@
     }
 }
 
-/* Telas Grandes (Desktops Grandes) */
 @media screen and (min-width: 1200px) {
     .container {
         width: 50%;
-        max-width: 800px; /* Limitando a largura máxima */
-        height: 500px; /* Definindo uma altura fixa */
-        padding: 30px; /* Aumentando o espaçamento interno */
+        max-width: 800px;
+        height: 500px;
+        padding: 30px;
     }
 
     h1 {
-        font-size: 2.3rem; /* Ajustando o tamanho do título */
-        margin-top: 20px; /* Aumentando o espaçamento superior */
+        font-size: 2.3rem;
+        margin-top: 20px;
         position: relative;
         bottom: 70px;
     }
 
     #input {
-        font-size: 20px; /* Ajustando o tamanho do texto de entrada */
-        padding: 12px; /* Ajustando o preenchimento */
-        margin-top: 30px; /* Aumentando o espaçamento superior */
+        font-size: 20px;
+        padding: 12px;
+        margin-top: 30px;
         position: relative;
         bottom: 10px;
     }
 
     button {
-        font-size: 20px; /* Ajustando o tamanho do botão */
-        padding: 12px; /* Ajustando o preenchimento */
+        font-size: 20px;
+        padding: 12px;
         font-weight: bold;
         position: relative;
         bottom: 10px;
     }
 
     #area {
-        width: 100%; /* Garantir que o parágrafo ocupe toda a largura disponível */
-        height: 100px; /* Define uma altura fixa */
+        width: 100%;
+        height: 100px;
         padding: 10px;
-        margin: 20px auto 0 auto; /* Centralizar horizontalmente e adicionar margem superior */
+        margin: 20px auto 0 auto;
         color: white;
         font-weight: bold;
         font-size: 1.3rem;
@@ -87,43 +86,43 @@
     }
 }
 
-/* Telas de Televisão */
+/* Media Query para Telas de Televisão */
 @media screen and (min-width: 1920px) {
     .container {
         width: 50%;
-        max-width: 1200px; /* Limitando a largura máxima */
-        height: 600px; /* Definindo uma altura fixa */
-        padding: 30px; /* Aumentando o espaçamento interno */
+        max-width: 1200px;
+        height: 600px;
+        padding: 30px;
     }
 
     h1 {
-        font-size: 3rem; /* Ajustando o tamanho do título */
-        margin-top: 30px; /* Aumentando o espaçamento superior */
+        font-size: 3rem;
+        margin-top: 30px;
         position: relative;
         bottom: 70px;
     }
 
     #input {
-        font-size: 24px; /* Ajustando o tamanho do texto de entrada */
-        padding: 12px; /* Ajustando o preenchimento */
-        margin-top: 40px; /* Aumentando o espaçamento superior */
+        font-size: 24px;
+        padding: 12px;
+        margin-top: 40px;
         position: relative;
         bottom: 10px;
     }
 
     button {
-        font-size: 24px; /* Ajustando o tamanho do botão */
-        padding: 12px; /* Ajustando o preenchimento */
+        font-size: 24px;
+        padding: 12px;
         font-weight: bold;
         position: relative;
         bottom: 10px;
     }
 
     #area {
-        width: 100%; /* Garantir que o parágrafo ocupe toda a largura disponível */
-        height: 120px; /* Define uma altura fixa */
+        width: 100%;
+        height: 120px;
         padding: 10px;
-        margin: 30px auto 0 auto; /* Centralizar horizontalmente e adicionar margem superior */
+        margin: 30px auto 0 auto;
         color: white;
         font-weight: bold;
         font-size: 1.6rem;
