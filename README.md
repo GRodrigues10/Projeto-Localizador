@@ -7,6 +7,7 @@ HTML5<br>
 CSS3<br>
 JavaScript<br>
 <h2>API</h2>
-ViaCEP
+ViaCEP<br>
 
-![Captura de Tela (297)](https://github.com/GRodrigues10/Projeto-Localizador/assets/167185964/ee7c61b1-46b1-4b44-9034-0804e7f6353a)
+
+<center>![api](https://github.com/GRodrigues10/Projeto-Localizador/assets/167185964/85434ad5-0d55-4859-83ac-1ede3b3983ff)</center>
