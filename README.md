@@ -22,11 +22,7 @@ ViaCEP
 <h2>Projeto em Execução</h2>
 
 
-
-
-
-
-
-
-
 ![exemplo](https://github.com/GRodrigues10/Projeto-Localizador/assets/167185964/0feb4c27-2119-4607-8a20-7173fa8cb960)
+
+
+<b>Link do Projeto:</b> <a target="_blank">https://grodrigues10.github.io/Projeto-Localizador/</a>
