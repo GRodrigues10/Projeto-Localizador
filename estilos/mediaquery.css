@@ -4,6 +4,7 @@
         max-width: 600px;
         height: 500px;
         padding: 30px;
+        transition: 0.3s ease;
     }
 
     h1 {
@@ -48,6 +49,7 @@
         max-width: 800px;
         height: 500px;
         padding: 30px;
+        transition: 0.3s ease;
     }
 
     h1 {
@@ -93,6 +95,7 @@
         max-width: 1200px;
         height: 600px;
         padding: 30px;
+        transition: 0.3s ease;
     }
 
     h1 {
